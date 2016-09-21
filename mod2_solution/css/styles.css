@@ -17,6 +17,16 @@ p {
   clear: both;
 }
 
+#category-header {
+  font-family: fantasy;
+}
+
+div > .content {
+  height: 300px;
+  overflow: scroll;
+  cursor: row-resize;
+}
+
 /**** heading styles for food ****/
 .menu-title {
   border-left: 1px solid black;
@@ -25,6 +35,10 @@ p {
   margin: 0;
   float: right;
 }
+.menu-title span {
+  display: none;
+}
+
 .div1 > .menu-title {
   background-color: #f78575;
   color: #ffffff;
@@ -54,6 +68,9 @@ p {
     background-color: #a9a9a9;
     position: relative;
   }
+  #category-header {
+    display: none;
+  }
 }
 
 /********** Tablet devices **********/
@@ -71,6 +88,9 @@ p {
   .col-md-12 {
     width: 100%;
   }
+  #category-header {
+    display: none;
+  }
 }
 
 /********** Mobile devices **********/
@@ -81,5 +101,16 @@ p {
     width: 100%;
     margin: .5%;
     position: relative;
+  }
+  .menu-title {
+    width: 100%;
+    border-left: 0;
+    text-align: center;
+  }
+  .menu-title span {
+    display: inline;
+  }
+  #menu-header {
+    display: none;
   }
 }

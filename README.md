@@ -1,2 +1,2 @@
-# CourseraHTMLCSSJS
-Coursera Git Repo for HTML, CSS, and Javascript for Web Developers
+# 605.787 Rich Internet Applications with Ajax
+
